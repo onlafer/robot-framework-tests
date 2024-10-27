@@ -1,6 +1,7 @@
+import os
+
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
-import os
 
 def get_chrome_driver_path():
     return os.path.normpath(ChromeDriverManager().install())
