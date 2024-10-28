@@ -19,13 +19,11 @@ HabrCheckElements
     Habr Menu Button Clicks
     Habr Text Search  ${HABR_SEARCH_QUERY}
 
-
 YandexSearchSite
     Open Configured Browser  ${SEARCH_ENGINE_URL}
     Search Site  ${SEARCH_QUERY}  ${SEARCHED_SITE_URL}
     Sleep  2s
     Close Browser
-
 
 *** Keywords ***
 Open Configured Browser
